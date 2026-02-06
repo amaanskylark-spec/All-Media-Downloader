@@ -1,0 +1,43 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -----------------------
+# Virtual Environment
+# -----------------------
+venv/
+pyvenv.cfg
+Lib/
+Scripts/
+Include/
+share/
+
+# -----------------------
+# Downloads & Temp Files
+# -----------------------
+static/downloads/*
+static/downloads/.temp/
+
+# Keep folders but not files
+!static/downloads/.gitkeep
+
+# -----------------------
+# IDE / Editor
+# -----------------------
+.vscode/
+.idea/
+
+# -----------------------
+# OS Files
+# -----------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# Logs
+# -----------------------
+*.log
